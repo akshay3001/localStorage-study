@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>akshay</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			if(localStorage){
+				//alert("local storage is available");
+				/*localStorage.setItem  --> used to store data
+				  localStorage.getItem --> used to retrieve data from localStorage
+				*/
+				localStorage.setItem("fname","Akshay");
+				localStorage.setItem("mname","Avinash");
+				localStorage.setItem("lname","Mhatre");
+				//localStorage.setItem("name","Akshay");
+				console.log(localStorage.getItem("fname"));
+			}
+			else{
+				alert("Local storage is not available");
+			}
+		</script>
+	</body>
+</html>
